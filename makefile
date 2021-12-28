@@ -3,7 +3,7 @@ BIN_LIB=CMPSYS
 LIBLIST=$(BIN_LIB) SAMPLE
 SHELL=/QOpenSys/usr/bin/qsh
 
-all: depts.sqlrpgle employees.sqlrpgle
+all: depts.sqlrpgle employees.sqlrpgle hellovid.sqlrpgle
 
 depts.sqlrpgle: depts.dspf
 employees.sqlrpgle: emps.dspf
